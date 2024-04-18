@@ -1,10 +1,3 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-image: url('./Icons/background.jpg');
-    background-size: cover;
-}
 
 .logo {
     width: 43px;
@@ -15,7 +8,7 @@ body, html {
 .come-and-play {
     color: #fff;
     margin-right: 10px;
-    margin-top: 5px;
+    margin-top: 1px;
     font-size: 26px;
     text-align: justify;
     position: absolute;
@@ -24,7 +17,6 @@ body, html {
 }
 
 .header {
-    
     display: flex;
     justify-content: space-between;
     padding-left: 150px;
@@ -36,10 +28,9 @@ body, html {
 .header-right a {
     color: #fff;
     margin-left: 20px;
-    padding-top: 50px;
     font-size: 21px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-decoration: none; }
+    text-decoration: none; 
+}
 
 .header-right a.active {
     font-weight: bold;
@@ -64,6 +55,7 @@ body, html {
 
 .ui-image {
     padding-left: 150px;
+    padding-top: 20px;
 }
 
 .ui-image img {
@@ -83,7 +75,6 @@ body, html {
 .TexasFeature {
     font-size: 55px; 
     font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     margin-left: 20px; 
     position: absolute;
@@ -123,7 +114,6 @@ body, html {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 18px;
 }
 
@@ -131,8 +121,7 @@ body, html {
     padding: 15px;
     text-align: justify;
     font-size: 22px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+    }
 
 .highlight-box {
     padding: 20px;
